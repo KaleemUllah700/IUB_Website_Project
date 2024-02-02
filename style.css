@@ -1,0 +1,329 @@
+charset = "UTF-8";
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	padding: 0;
+	margin: 0;
+}
+/*start header coding*/
+#header{
+	width: 100%;
+	height: 28px;
+	background: #063970;
+    box-sizing: border-box;
+}
+#nav{
+	list-style-type: none;
+    box-sizing: border-box;
+}
+#nav-bar{
+	float: left;
+	padding: 5px;
+	margin-left: 10px;
+}
+#nav-bar-link{
+	text-decoration: none;
+	color: white;
+	font-family: sans-serif;
+	font-size: 15px;
+}
+#nav-bar:hover{
+	background-color:  #ffa31a;
+}
+/*end header coding*/
+
+/*start nav coding*/
+nav{
+	width: 100%;
+	height: 100px;
+    float: left;
+    box-sizing: border-box;
+}
+#nav-div{
+	width: 90%;
+	height: 70px;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+#nav-div-left{
+	width: 35%;
+	height: 50px;
+	margin-top: 10px;
+	margin-left: 5px;
+	float: left;
+    box-sizing: border-box;
+}
+#logo-img{
+	width: 100%;
+	height: 50px;
+}
+#nav-div-right{
+	width: 64%;
+	height: 50px;
+	box-sizing: border-box;
+	margin-top: 10px;
+	margin-left: 5px;
+	float: left;
+	padding-top: 17px;
+}
+#nav-link{
+	text-decoration: none;
+	font-size: 17px;
+	font-family: sans-serif;
+	padding: 7px;
+	color: black;
+}
+#nav-link:hover{
+	cursor: auto;
+	color: #ffa31a;
+
+}
+#search-div{
+	width: 100%;
+	height: 100px;
+	float: left;
+	box-sizing: border-box;
+	background-color:#063970;
+}
+input[type=search]{
+	width:50%;
+	height: 50px;
+	margin-top: 23px;
+	margin-left: 20%;
+	font-size: 17px;
+	color: grey;
+	padding-left: 10px;
+	border-radius: 5px;
+	border: none;
+}
+input[type=search]:focus{
+	outline: none;
+}
+#submit-btn{
+    width: 150px;
+    height: 50px;
+    background-color:#F5B919  ;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+    
+}
+/*end nav coding*/
+
+/*start section coding*/
+section{
+    width: 100%;
+    height: 2000px;
+    float: left;
+    box-sizing: border-box;
+    border: 1px solid red;
+    background-image: url(images/front-pic.jpg);
+    background-size: 100% 30%;
+    background-repeat: no-repeat;
+}
+#university-name{
+    font-size: 55px;
+    font-family:sans-serif;
+    text-align: center;
+    margin-top: 170px;
+}
+#tag-name{
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    margin-top: -20px;
+}
+#all-programs{
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border:none;
+    font-size: 17px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+    background-color: #F5B919;
+    margin-right: 5px;
+    margin-top: 20px;   
+}
+#read-more{
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border:1px solid white;
+    font-size: 17px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+    background-color: inherit;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+#all-programs:hover{
+    background-color: white;
+    color: black;
+    transition-duration: 0.8s;
+    cursor: pointer;   
+}
+#read-more:hover{
+    background-color: white;
+    color: black;
+    transition-duration: 0.8s;
+    cursor: pointer;
+}
+#group-div{
+    width: 500px;
+    height: 180px;
+    margin: 0 auto;  
+}
+#faculty,#phd-faculty,#scholarships,#students{
+    width: 120px;
+    height: 120px;
+    background-color: #063970;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+    padding-top: 55px;
+    color: white;
+    font-size: 12px;
+    font-family: sans-serif;
+    margin-left: 3px;
+    border-radius: 50%;
+    margin-top: 30px;
+    text-align: center;   
+}
+#faculty:hover{
+    background-color: #F5B919;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+#phd-faculty:hover{
+    background-color: #F5B919;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+#scholarships:hover{
+    background-color: #F5B919;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+#students:hover{
+    background-color: #F5B919;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+#sub-campuses{
+    width: 100%;
+    height: 120px;
+    box-sizing: border-box;   
+}
+#discover-more{
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    padding-top: 20px;
+}
+#more{
+    color: #F5B919;
+}
+#campuses{
+    width: 30%;
+    height: 300px;
+    float: left;
+    margin-left: 32px;
+    margin-top: 20px;
+    background-image: url(images/campuses.jpg);
+    background-size: cover;
+    border-radius: 5px;
+    box-sizing: border-box;   
+}
+#notices{
+    width: 100%;
+    height: 25px;
+    background-color: #F5B919;
+    font-size: 20px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    top: 50%;
+}
+#campuses:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    box-shadow: 3px 3px 3px grey;
+}
+#academic-program{
+    width: 100%;
+    height: 500px;
+    border:1px solid red;
+    float: left;
+    box-sizing: border-box;
+    background-color:#E5E5E5;
+    margin-top: 30px;   
+}
+#academic{
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    padding-top: 25px;   
+}
+#program-span{
+    color: #F5B919;
+}
+#sub-div-academic{
+    width: 90%;
+    height: 350px;
+    border: 1px solid red;
+    float: left;
+    box-sizing: border-box;
+    margin-left: 5%;
+    margin-right: 5%;   
+}
+#all_programs{
+    width: 380px;
+    height: 150px;
+    border:1px solid red;
+    float: left;
+    box-sizing: border-box;
+    margin: 10px;
+    margin-left: 10px;
+    margin-top: 12px;   
+}
+#undergraduate,#graduate-ms,#graduate-phd,#graduate-5th,#adp,#diploma{
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    font-family: sans-serif;
+    padding-top: 40px;
+    margin-left: 40px;      
+}
+#view-all{
+    background-color: #063970;
+    width:70px;
+    height:25px;
+    color: white;
+    border-radius: 5px;
+    margin-left: 40px;
+    margin-top: 15px;
+    font-size: 9px;
+    font-family: sans-serif;
+}
+
+/*end section coding*/
